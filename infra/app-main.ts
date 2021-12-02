@@ -16,6 +16,5 @@ if (appContext.stackCommonProps != undefined) {
     new EcsAlbServiceStack(appContext, appContext.appConfig.Stack.SampleFrontendFlask);
     new EcsAlbServiceStack(appContext, appContext.appConfig.Stack.SampleBackendFastapi); 
     new EcsCommonServiceStack(appContext, appContext.appConfig.Stack.LoadTesterScript);
-        
-           
+               
 }
